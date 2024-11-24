@@ -1,4 +1,4 @@
-name: Deploy PLK
+name: Deploy RUE
 
 on:
   push:
@@ -16,5 +16,5 @@ jobs:
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN_PLK }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID_PLK }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN_RUE }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID_RUE }}
